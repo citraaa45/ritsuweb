@@ -38,8 +38,8 @@ body, html {
     max-width: 1200px;
     height: 300px;
     margin: 0 auto;
-    margin-right: 100px;
-    margin-top: -320px;
+    margin-left:100px;
+    margin-top: -300px;
 }
 .cart {
     border: 1px solid #bf7b14;
@@ -127,11 +127,25 @@ body, html {
 
 .wrapcontent {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 150px; 
 }
+
+.product-area {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cart-area {
+    flex: 0 0 320px;
+}
+
 
 .image {
     width: 500px;
