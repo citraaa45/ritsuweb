@@ -128,7 +128,7 @@ body, html {
 .wrapcontent {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     padding: 20px;
     flex-wrap: wrap;
     margin-top: 150px; 
