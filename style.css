@@ -19,13 +19,10 @@ body, html {
 .product-card {
     border: 1px solid #bf7b14;
     padding: 10px;
-    margin-bottom: 10px;
     width: 500px;
     height: 550px;
     background:rgb(235, 203, 122);
     border-radius: 20px;
-    margin-left: 100px;
-    margin-top: -60px;
 }
 .product-card img {
     width: 100%;
@@ -38,8 +35,6 @@ body, html {
     max-width: 1200px;
     height: 300px;
     margin: 0 auto;
-    margin-left:100px;
-    margin-top: -300px;
 }
 .cart {
     border: 1px solid #bf7b14;
@@ -131,7 +126,7 @@ body, html {
     gap: 10px;
     padding: 10px;
     flex-wrap: wrap;
-    margin-top: 150px;
+    margin-top: 10px;
     align-items: center;
 }
 
